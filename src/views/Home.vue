@@ -1,6 +1,6 @@
 <template>
   <h1>Home</h1>
-  <button @click="$router.push('/databasenoencryption')">DatabaseNoEncryption</button>
+  <p>Welcome from Jeep</p>
 </template>
 <style>
 h1 {

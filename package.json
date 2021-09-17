@@ -1,9 +1,9 @@
 {
-  "name": "vue-sqlite-app",
-  "version": "1.1.2",
+  "name": "vue-sqlite-app-hook-issue4",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "update": "npm install --save @capacitor-community/sqlite@latest --save-dev vue-sqlite-hook@latest",
+    "update": "npm install --save @capacitor-community/sqlite@latest --save-dev vue-sqlite-hook@latest --save-dev jeep-sqlite@latest",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -15,17 +15,12 @@
     "Capacitor"
   ],
   "dependencies": {
-    "@capacitor-community/electron": "^4.0.3",
-    "@capacitor-community/sqlite": "^3.2.0-6",
-    "@capacitor/android": "^3.2.0",
-    "@capacitor/core": "^3.2.0",
-    "@capacitor/ios": "^3.2.0",
-    "core-js": "^3.8.3",
+    "@capacitor-community/sqlite": "^3.2.2-3",
+    "core-js": "^3.17.3",
     "vue": "^3.2.6",
     "vue-router": "^4.0.11"
   },
   "devDependencies": {
-    "@capacitor/cli": "^3.2.0",
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-plugin-eslint": "~4.5.13",
     "@vue/cli-plugin-router": "~4.5.13",
@@ -36,19 +31,19 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0-0",
-    "jeep-sqlite": "^0.0.7",
+    "jeep-sqlite": "^1.2.1",
     "prettier": "^2.2.1",
-    "vue-sqlite-hook": "^2.0.7"
+    "vue-sqlite-hook": "^2.0.8"
   },
   "description": "Vue App for @capacitor-community/sqlite",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jepiqueau/vue-sqlite-app.git"
+    "url": "git+https://github.com/jepiqueau/vue-sqlite-app-hook-issue4.git"
   },
   "author": "Jean Pierre Quéau",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jepiqueau/vue-sqlite-app/issues"
+    "url": "https://github.com/jepiqueau/vue-sqlite-app-hook-issue4/issues"
   },
   "eslintConfig": {
     "root": true,

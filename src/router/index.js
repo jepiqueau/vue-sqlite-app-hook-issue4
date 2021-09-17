@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
-import DatabaseNoEncryption from "@/views/DatabaseNoEncryption.vue";
 import NotFound from "@/views/NotFound.vue";
 
 const routes = [
@@ -9,11 +8,7 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  {
-    path: "/databasenoencryption",
-    name: "DatabaseNoEncryption",
-    component: DatabaseNoEncryption,
-  },
+  
   {
     path: "/:catchAll(.*)",
     component: NotFound,

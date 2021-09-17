@@ -1,14 +1,12 @@
 <p align="center"><br><img src="https://avatars3.githubusercontent.com/u/16580653?v=4" width="128" height="128" /></p>
 
 <h3 align="center">Vue SQLite App</h3>
-<p align="center"><strong><code>vue-sqlite-app</code></strong></p>
+<p align="center"><strong><code>vue-sqlite-app-hook-issue4</code></strong></p>
 <p align="center">Vue application demonstrating the use of the</p>
 <p align="center"><strong><code>@capacitor-community/sqlite plugin<code></strong></p>
+<p align="center">with</p>
+<p align="center"><code>vue-sqlite-hook and jeep-sqlite<code></p>
 <br>
-<p align="center">
-  <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
-  <a href="https://github.com/jepiqueau/vue-sqlite-app"><img src="https://img.shields.io/github/license/jepiqueau/vue-sqlite-app?style=flat-square" /></a>
-  <a href="https://github.com/jepiqueau/vue-sqlite-app"><img src="https://img.shields.io/github/package-json/v/jepiqueau/vue-sqlite-app?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <a href="#contributors-"><img src="https://img.shields.io/badge/all%20contributors-1-orange?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -27,14 +25,10 @@
 
 To start clone the project
 ```bash
-git clone https://github.com/jepiqueau/vue-sqlite-app.git 
-cd vue-sqlite-app
+git clone https://github.com/jepiqueau/vue-sqlite-app-hook-issue4.git 
+cd vue-sqlite-app-hook-issue4
 git remote rm origin
 npm install
-cd electron
-npm install
-npm run build
-cd ..
 ```
 
 
@@ -44,17 +38,15 @@ To install the latest release of
 
  - [vue-sqlite-hook](https://www.npmjs.com/package/vue-sqlite-hook)
 
+ - [jeep-sqlite](https://www.npmjs.com/package/jeep-sqlite)
+
 run the following commands
 
 ```bash
 npm run update
 npm run build
 npx cap sync
-npx cap sync @capacitor-community/electron
-npm run build
-npx cap copy
 npx cap copy web
-npx cap copy @capacitor-community/electron
 ```
 
 ## Running the app
@@ -63,24 +55,6 @@ npx cap copy @capacitor-community/electron
 
 ```
 npx run serve
-```
-
-### IOS
-
-```
-npx cap open ios
-```
-
-### ANDROID
-
-```
-npx cap open android
-```
-
-### ELECTRON
-
-```
-npx cap open @capacitor-community/electron
 ```
 
 
